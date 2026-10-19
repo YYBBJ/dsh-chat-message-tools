@@ -1,0 +1,6 @@
+# dsh-chat-message-tools bundle: adds the plugin's Host half entry.
+# All behaviour lives in the Client half (./client.js); the Host half is an
+# empty Cordis plugin that only exists so the Web plugin table can find us.
+- insert:
+    - id: dsh-chat-message-tools
+      name: dsh-chat-message-tools
